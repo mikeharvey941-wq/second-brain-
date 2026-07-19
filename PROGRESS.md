@@ -4,14 +4,14 @@ Claude Code: read this at the start of every session per `CLAUDE.md`. Update it 
 
 ## Current status
 - **Current Phase:** 1 — Foundations
-- **Current Week:** 1 — Terminal/CLI fluency
-- **Last session date:** —
+- **Current Week:** 2 — Git fundamentals
+- **Last session date:** 2026-07-18
 
 ## Checkpoint log
 
 | Week | Topic | Grade (Pass / Retry / Not Yet) | Date | Notes |
 |---|---|---|---|---|
-| 1 | Terminal/CLI fluency | | | |
+| 1 | Terminal/CLI fluency | Pass | 2026-07-18 | Real terminal, all commands typed. Struggled: tried plain-English "navigate" instead of a real command; missing space/wrong case in cd (cd/desktop/second-brain); typo'd tests as test; forgot to touch agents/.gitkeep initially; needed code . PATH setup walkthrough. All errors self-diagnosed correctly after prompting. Auto-check (tests/test_week01.sh) run for real: PASS. |
 | 2 | Git fundamentals | | | |
 | 3 | Reading code / debugging instinct | | | |
 | 4 | Python foundations + API mechanics | | | |
@@ -96,7 +96,8 @@ Claude Code: read this at the start of every session per `CLAUDE.md`. Update it 
 | Deployed to Vercel with live URL | | | |
 
 ## Overrides (skipped without a Pass)
-- (none yet)
+- **2026-07-17** — Repo setup (git init, first commit, GitHub remote, push) was done by Claude Code before Week 1 or Week 2 began, as one-off session administration — not a graded rep. Does NOT count as a Week 2 Pass. Week 2 will still be run for real when we get there, commands typed by Michael.
 
 ## Session log (append-only — newest at bottom)
 - **[date]** — Week —, topic —. What we covered: —. Result: —. Next step: —.
+- **2026-07-18** — Week 1, Terminal/CLI fluency. What we covered: pwd, cd, ls (incl. -a), mkdir (incl. -p and multi-arg), touch, reading real zsh errors (command not found vs. no such file or directory vs. permission denied), VS Code + code . setup. Built the full second-brain/ directory tree and a real README.md, all typed by Michael in his own terminal/VS Code, not run by Claude Code. Result: Pass (auto-check tests/test_week01.sh run for real, all green). Next step: Week 2 — git fundamentals (init, commit, push, .gitignore) — note the repo/remote already technically exist from prior session admin, but the actual git commands should still be typed fresh by Michael for the rep to count.
